@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,header,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.header {
+    height: 60px;
+    background-color: #0f1111;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo img {
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    cursor: pointer;
+}
+
+.border:hover {
+    border: 1.5px solid #ffffff;
+}
+
+.address-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.address-second {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+    background-color: #ffc0cb;
+}
+
+.search:hover {
+    border: 2px solid #ffa500;
+}
+
+.search-select {
+    background-color: #f5f5f5c4;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+    cursor: pointer;
+}
+
+.language {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.language p {
+    margin: 0 3px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.sign-first {
+    font-size: 0.7rem;
+}
+
+.sign-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.ret-first {
+    font-size: 0.7rem;
+}
+
+.ret-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,header End,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,navbar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.nav {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+}
+
+.nav .menu {
+    margin-left: 50px;
+}
+
+.option {
+    width: 70%;
+    font-size: 0.85rem;
+    margin-left: 30px;
+}
+
+.option p {
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,navbar End,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+section,
+img {
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.message {
+    height: 40px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-top: -150px;
+}
+
+.message p {
+    background-color: #ffffff;
+    padding: 0.3%;
+}
+
+.message a {
+    color: #007185;
+    cursor: pointer;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,section,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.shopping {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: #ffffff;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px #0f1111;
+}
+
+.box:hover {
+    border: 2px solid #ff0000;
+}
+
+.box-content {
+    margin: 0 1rem;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+.box-img img {
+    height: 100%;
+}
+
+.box-content p {
+    color: #007185;
+    cursor: pointer;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,section end,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.sign-in {
+    background-color: #ffffff;
+    height: 200px;
+    width: 100%;
+}
+
+.sign-box {
+    border: 0.01rem solid rgb(165, 156, 156);
+    border-radius: 8px;
+    height: 160px;
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-box .up {
+    font-size: 0.85rem;
+    margin: 3px 0;
+}
+
+button {
+    height: 30px;
+    width: 250px;
+    border: 1px solid #ff6600;
+    border-radius: 6px;
+    margin: 3px 0;
+    background-color: #f1ad2e;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+button h3 {
+    text-decoration: none;
+    color: #000000;
+    margin-top: 3px;
+}
+
+.sign-box .down {
+    font-size: 0.85rem;
+    margin-top: 2px;
+}
+
+.down a {
+    text-decoration: none;
+    color: #007185;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,footer,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.footer {
+    height: 100%;
+    background-color: #232F3E;
+}
+
+.footer-up {
+    height: 50px;
+    background-color: #221f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-up:hover {
+    cursor: pointer;
+    background-color: #485769;
+}
+
+.footer-up p {
+    color: #ffffff;
+    font-size: 0.85rem;
+}
+
+.footer-down {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.footer-down p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.footer-down a {
+    text-decoration: none;
+    color: #ffffffb8;
+    margin: 10px 0;
+    font-size: 0.80rem;
+    cursor: context-menu;
+}
+
+.footer-down a:hover {
+    color: #e2e7e6;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+
+.footer-down i {
+    margin-right: 10px;
+}
+
+.col1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.col2 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.col3 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.col4 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
